@@ -1,0 +1,31 @@
+.back{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.indus{
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 50%;
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.342);
+    box-shadow: 5px 5px 18px 3px rgb(102, 191, 230);
+    overflow: hidden;
+}
+h3{
+    color:aqua;
+    padding: 15px;
+}
+p{
+    padding: 10px;
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+.indus:hover{
+    box-shadow: -5px 5px 18px 10px rgb(102, 191, 230);
+    transform: scale(1.02);
+}

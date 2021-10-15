@@ -1,0 +1,47 @@
+.back{
+    background: rgba(0, 0, 0, 0.699) url('../img/bg1.jpg') repeat-y;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 218vh;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    padding: 50px 150px;
+    background-color:rgba(0, 0, 0, 0.692);
+    color: white;
+}
+.ims{
+    width: 300px;
+    height: 300px;
+    border-radius: 170px;
+}
+.top p span{
+    color: red;
+}
+.top h1{
+    color: rgb(49, 200, 250);
+    padding-bottom: 30px;
+    font-size:70px;
+}
+.top{
+    padding-right:15%;
+}
+.forma{
+    display: flex;
+    justify-content: center;
+    padding: 50px 150px;
+    color: white;  
+    background-color:rgba(0, 0, 0, 0.692);
+}
+.second{
+    padding-left: 10%;
+}
+.second h1{
+    color: rgb(250, 49, 49);
+    padding-bottom: 30px;
+    font-size:70px;
+}
+#pre{
+    margin-top:4%;
+}

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background: rgba(0, 0, 0, 0.699) url('../img/bg1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.836)
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border-radius:2px;
+}
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Cinzel', serif;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-list li a :hover{
+    color:grey;
+}
+.rightNav{
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding:5px;
+    font-size: 17px;
+    border:2px solid grey;
+    border-radius: 10px;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 70%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:80%;
+}
+.firstSection{
+    height:87.35vh;
+}
+.firstHalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.secondHalf{
+    width:40%;
+}
+.secondHalf img{
+    width: 300px;
+    height: 300px;
+    border-radius:180px;
+    display:block;
+    margin:auto;
+}
+.text-big{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.text-small{
+    font-size: 18px;
+}
+.btn{
+    padding: 5px 15px;
+    margin: 10px 5px;
+    border: 2px solid white;
+    font-size: 18px;
+    border-radius:10px;
+    background: none;
+    cursor:pointer;
+    color:white;
+}
+.buttons{
+    text-align: center;
+}
+.btn-sm{
+    padding: 5px 5px;
+    font-size: 12px;
+    vertical-align: middle;
+    margin-bottom: 18px;
+}
+
+/* contact-form.html */
+.contact-form{
+    color: white;
+    display:flex;
+    margin: auto auto;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    margin-top: 15%;
+    border-radius: 70px;
+    background-color:rgba(128, 0, 128, 0.87);
+}
+form{
+    padding-top:30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 30%;
+    background:none;
+    border: none;
+    outline: none;
+    padding:12px;
+    color: white;
+    border-bottom: 2px solid blue;
+    margin: 10px;
+}
+textarea{
+    width: 30%;
+    background:none;
+    border: none;
+    outline: none;
+    padding:12px;
+    color: white;
+    border-bottom: 2px solid blue;
+}

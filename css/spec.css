@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.indus ul{
+    color: white;
+    text-align: left;
+    padding: 15px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+li{
+    padding: 3px 0;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h3{
+    font-size: 150%;
+}
